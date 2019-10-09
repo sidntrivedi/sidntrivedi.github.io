@@ -1,0 +1,96 @@
+baseurl = "http://www.example.com"
+title = "Siddhant N Trivedi"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "sidntrivedi012-github-io-1"
+
+[params]
+    author = "Siddhant N Trivedi"
+    description = "F/OSS Enthusiast and Developing for Web"
+    keywords = "blog,developer,personal"
+    info = "F/OSS Enthusiast and Developing for Web"
+    avatarurl = "images/avatar.jpg"
+    #footercontent = "Enter a text here."
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+    
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+    
+    # Custom JS
+    custom_js = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/sidntrivedi012/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/sidntrivedi012/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/siddhantntrivedi/"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope"
+    weight = 5
+    url = "mailto:sidntrivedi012@gmail.com"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
