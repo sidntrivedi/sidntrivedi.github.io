@@ -1,4 +1,4 @@
-baseurl = "https://sidntrivedi012.github.io"
+baseurl = "https://sidntrivedi012.netlify.com"
 title = "Siddhant N Trivedi"
 
 theme = "hugo-coder"
