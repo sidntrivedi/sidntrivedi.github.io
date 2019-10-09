@@ -10,4 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Building the recent changes
-      run: hugo serve
+      run: |
+        brew install hugo
+        hugo serve
