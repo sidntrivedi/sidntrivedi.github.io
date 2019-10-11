@@ -8,8 +8,6 @@ series = ["gsoc"]
 draft: true
 +++
 
-![gsoc-image](./img/gsoc.jpg)
-
 ## Introduction
 
 **Public Lab** has been doing a great amount of super inspiring work on improving the standard of science and environmental research in the community through various technologies and tools. The scale of products and softwares that they develop is a thing to reckon with. Also, the community vibe and the friendly nature of the members really helps a lot of beginners to start contributing to their projects.
@@ -17,8 +15,6 @@ draft: true
 I am really utterly humbled that I got the opportunity to work for Public Lab as a student through the **Google Summer of Code Program**. Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a programming project and this year I worked(and will surely continue to) with Public Lab on the [spectral-workbench.js](https://github.com/publiclab/spectral-workbench.js) Project.
 
 ## Spectral Workbench
-
-![spectral-workbench](./img/swb.jpg)
 
 The [SpectralWorkbench](http://spectralworkbench.org) is a really awesome software which helps anyone who wants to carry out environmental research or any scientific work conduct spectrometry with the least amount of cost and hardware. Through the Spectral Workbench, we can use the camera of our mobiles and laptops as a spectrometer. It works as a real spectrometer and shows all the RGB values as well as we can also calibrate values in it in order to match it to the already known values of certain substances.
 
