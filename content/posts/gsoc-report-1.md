@@ -5,7 +5,6 @@ slug = "gsoc-report1"
 tags = []
 categories = []
 series = ["gsoc"]
-draft: true
 +++
 
 > Linus Torvalds said - <br><br> "I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today and the incredible advances that we have had."<br>

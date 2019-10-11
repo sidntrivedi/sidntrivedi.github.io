@@ -4,6 +4,5 @@ title = "Title"
 slug = "slug-here" 
 tags = []
 categories = []
-series = ["",""]
-draft: true
+series = [""]
 +++

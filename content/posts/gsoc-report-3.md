@@ -5,7 +5,6 @@ slug = "gsoc-report3"
 tags = []
 categories = []
 series = ["gsoc"]
-draft: true
 +++
 
 ## Introduction

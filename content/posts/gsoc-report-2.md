@@ -5,7 +5,6 @@ slug = "gsoc-report2"
 tags = []
 categories = []
 series = ["gsoc"]
-draft: true
 +++
 
 <strong>Martin Fowler</strong>, a Software Design Maestro said -
