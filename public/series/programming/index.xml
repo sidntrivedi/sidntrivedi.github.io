@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Siddhant N Trivedi</title>
+    <link>https://sidntrivedi.codes/series/programming/</link>
+    <description>Recent content in Programming on Siddhant N Trivedi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sidntrivedi.codes/series/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kickstart Programming</title>
+      <link>https://sidntrivedi.codes/posts/kickstart-programming/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sidntrivedi.codes/posts/kickstart-programming/</guid>
+      <description>Having completed JEE and school, when one steps in college, he gets a new challenge-PROGRAMMING.
+If he had a CS background back in college, then it appears somewhat easy but if he had taken Physical Science in his 10+2, it gets a bit tough for him to get acknowledged with programming and its concepts.
+Thus, having completed my first year of B.Tech, I would like to offer some help to my fellow friends who are going to join college this July with regard to starting with some programming now in this time period i.</description>
+    </item>
+    
+  </channel>
+</rss>

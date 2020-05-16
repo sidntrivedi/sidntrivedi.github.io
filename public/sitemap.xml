@@ -1,47 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/categories/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/series/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/tags/gsoc/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/categories/gsoc-2019/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/series/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/posts/gsoc-report3/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/posts/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/series/theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://sidntrivedi.codes/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/about/</loc>
+    <loc>https://sidntrivedi.codes/tags/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/categories/</loc>
+    <loc>https://sidntrivedi.codes/posts/gsoc-report2/</loc>
+    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sidntrivedi012.netlify.com/tags/</loc>
+    <loc>https://sidntrivedi.codes/posts/gsoc-report1/</loc>
+    <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/posts/dgplug-summer-training-2018/</loc>
+    <lastmod>2018-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/posts/kickstart-programming/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/series/</loc>
   </url>
   
 </urlset>
