@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Siddhant N Trivedi">
+    <meta name="description" content="F/OSS Enthusiast and Developing for Web">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Post 3: Google Summer of Code"/>
+<meta name="twitter:description" content="Introduction Public Lab has been doing a great amount of super inspiring work on improving the standard of science and environmental research in the community through various technologies and tools. The scale of products and softwares that they develop is a thing to reckon with. Also, the community vibe and the friendly nature of the members really helps a lot of beginners to start contributing to their projects.
+I am really utterly humbled that I got the opportunity to work for Public Lab as a student through the Google Summer of Code Program."/>
+
+    <meta property="og:title" content="Post 3: Google Summer of Code" />
+<meta property="og:description" content="Introduction Public Lab has been doing a great amount of super inspiring work on improving the standard of science and environmental research in the community through various technologies and tools. The scale of products and softwares that they develop is a thing to reckon with. Also, the community vibe and the friendly nature of the members really helps a lot of beginners to start contributing to their projects.
+I am really utterly humbled that I got the opportunity to work for Public Lab as a student through the Google Summer of Code Program." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sidntrivedi.codes/posts/gsoc-report3/" />
+<meta property="article:published_time" content="2019-08-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-08-26T00:00:00+00:00" /><meta property="og:see_also" content="https://sidntrivedi.codes/posts/gsoc-report2/" /><meta property="og:see_also" content="https://sidntrivedi.codes/posts/gsoc-report1/" />
+
+
+
+    
+      <base href="https://sidntrivedi.codes/posts/gsoc-report3/">
+    
+    <title>
+  Post 3: Google Summer of Code · Siddhant N Trivedi
+</title>
+
+    
+      <link rel="canonical" href="https://sidntrivedi.codes/posts/gsoc-report3/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://sidntrivedi.codes/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://sidntrivedi.codes/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sidntrivedi.codes/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.58.3" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://sidntrivedi.codes/">
+      Siddhant N Trivedi
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sidntrivedi.codes/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sidntrivedi.codes/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sidntrivedi.codes/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sidntrivedi.codes/contact/">Contact me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Post 3: Google Summer of Code</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-08-26T00:00:00Z'>
+                August 26, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              4 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>Public Lab</strong> has been doing a great amount of super inspiring work on improving the standard of science and environmental research in the community through various technologies and tools. The scale of products and softwares that they develop is a thing to reckon with. Also, the community vibe and the friendly nature of the members really helps a lot of beginners to start contributing to their projects.</p>
+
+<p>I am really utterly humbled that I got the opportunity to work for Public Lab as a student through the <strong>Google Summer of Code Program</strong>. Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a programming project and this year I worked(and will surely continue to) with Public Lab on the <a href="https://github.com/publiclab/spectral-workbench.js">spectral-workbench.js</a> Project.</p>
+
+<h2 id="spectral-workbench">Spectral Workbench</h2>
+
+<p>The <a href="http://spectralworkbench.org">SpectralWorkbench</a> is a really awesome software which helps anyone who wants to carry out environmental research or any scientific work conduct spectrometry with the least amount of cost and hardware. Through the Spectral Workbench, we can use the camera of our mobiles and laptops as a spectrometer. It works as a real spectrometer and shows all the RGB values as well as we can also calibrate values in it in order to match it to the already known values of certain substances.</p>
+
+<h2 id="work-completed">Work Completed</h2>
+
+<h3 id="fixing-the-demo-of-the-capture-part">Fixing the Demo of the Capture part</h3>
+
+<p>There was a very uncommon error popping up in the demo of the capture functionality of Spectral-workbench. I looked through the libraries like flot which maybe causing it but got no success. Finally, after a conversation with the mentors I figured out that the width was automatically being set to 0. So, I fixed it by hardocoding the width of the plot div.<br>
+Here is the link to the Pull Request : <a href="https://github.com/publiclab/spectral-workbench.js/pull/107">https://github.com/publiclab/spectral-workbench.js/pull/107</a></p>
+
+<h3 id="adding-connect-to-pi-button-and-its-functioning">Adding Connect to Pi Button and its functioning</h3>
+
+<p>Since, the project needed to be connected to Raspberry Pi since many Hardware enthusiasts may prefer using PiCamera for their projects and research thus, we thought of implementing it in the project. The feature has been implemented but has 1-2 shortcomings which will surely be patched in this week. Hoping that it will be live as soon as possible.<br>The link to the Pull Request : <a href="https://github.com/publiclab/spectral-workbench.js/pull/103">https://github.com/publiclab/spectral-workbench.js/pull/103</a></p>
+
+<h3 id="adding-code-of-conduct-to-the-project">Adding Code of Conduct to the Project</h3>
+
+<p>Since, every project needs a Code of Conduct for maintaining the spirit of collaboration and cooperation. Thus, I added the Public Lab Code of Conduct in this Pull Request : <a href="https://github.com/publiclab/spectral-workbench.js/pull/109">https://github.com/publiclab/spectral-workbench.js/pull/109</a></p>
+
+<h3 id="making-first-timer-issues">Making First-Timer-Issues</h3>
+
+<p>A great part of any project is its outreach and how easily can beginners start contributing to it. Thus, we here at Public Lab have a culture of making <strong>First timer issues(FTOs)</strong> which are really easy to solve and give the beginners a headstart to work on the project.<br>Here are the FTOs that I created :</p>
+
+<ul>
+<li><a href="https://github.com/publiclab/spectral-workbench.js/issues/113">https://github.com/publiclab/spectral-workbench.js/issues/113</a></li>
+<li><a href="https://github.com/publiclab/spectral-workbench.js/issues/110">https://github.com/publiclab/spectral-workbench.js/issues/110</a></li>
+<li><a href="https://github.com/publiclab/spectral-workbench.js/issues/111">https://github.com/publiclab/spectral-workbench.js/issues/111</a></li>
+</ul>
+
+<h2 id="remaining-work">Remaining Work</h2>
+
+<p>Completion of GSoC is just a date, open source continues forever. Thus, after GSoC , I will be implementing the following tasks which are remaining and finally get my project up and running.</p>
+
+<ul>
+<li>Porting the SWB to Safari Browser [IN PROGRESS] - The work on it is currently in progress.</li>
+<li>Refactoring of capture.js file. [TODO]</li>
+<li>Bundling the code. [TODO]</li>
+<li>Making a React app around the library. [TODO]</li>
+</ul>
+
+<h2 id="what-gsoc-taught-me-in-terms-professionally-and-mentally">What GSoC taught me in terms professionally and mentally</h2>
+
+<p>Google Summer of Code and also my mentors made me learn and analyse a lot of stuff which I earlier didn&rsquo;t know of. Working in open-source projects requires a lot of discipline and a skill to priortise the tasks one needs to perform with respect to the circumstances around him. One needs to have a certain amount of dedication,commitment and discipline towards the work. I had this habit of burning the last minute oil and not working consistently. But, the mentors gave me space and guided me about it.</p>
+
+<p>I have now learnt the value of consistency and commitment in the working culture. Also, a gem that my mentors told me was that in open-source, communication is a very very important thing that one needs to take care of. In the early days, I missed to communicate well with them but after some time, things somewhat improved.</p>
+
+<p>With this huge amount of learning, I will try to better myself as much as I can. Will try to inculcate the discpline and get the left work completed as soon as possible :)</p>
+
+<h2 id="gratitude">Gratitude</h2>
+
+<p>Finally, I would firstly like to thank <strong>Public Lab</strong> and <strong>Google</strong> for giving me such an opportunity to contribute to such a sane cause. I will surely carry it forward and tell more of my friends and college folks about the benefits of contributing to open-source softwares. <br><br>Next, I would like to thank all of my mentors <a href="https://github.com/jywarren">Jeffrey Warren</a> , <a href="https://github.com/starkblaze01">Mayank Pathela</a>, <a href="https://github.com/Dhiraj240">Dhiraj Sharma</a> and <a href="https://github.com/harshithpabbati">Harshith Pabbati</a> for being such an awesome guide and understanding every sitation. Everything I learnt, I learnt from them. <br><br>Last but not the least, I would like to thank the almighty for everything.</p>
+
+      </div>
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in gsoc</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="https://sidntrivedi.codes/posts/gsoc-report2/">Post 2: Google Summer of Code</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://sidntrivedi.codes/posts/gsoc-report1/">Post 1: Google Summer of Code 2019</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sidntrivedi012-github-io-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2020
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

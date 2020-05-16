@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dgplug on Siddhant N Trivedi</title>
+    <link>https://sidntrivedi.codes/series/dgplug/</link>
+    <description>Recent content in dgplug on Siddhant N Trivedi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sidntrivedi.codes/series/dgplug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DGPLUG Summer Training 2018</title>
+      <link>https://sidntrivedi.codes/posts/dgplug-summer-training-2018/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sidntrivedi.codes/posts/dgplug-summer-training-2018/</guid>
+      <description>Hey everyone, in this blog post, I am going to share my experience of the dgplug summer training that I am a part of. It has been an incredible learning experience till now and I would recommend everyone who wants to be a better programmer or a better Contributor to surely be a part of it.
+What is dgplug? dgplug is an acronym for Durgapur Linux Users Group and it is a community that supports the use of open source softwares like those based on and for Linux/Unix.</description>
+    </item>
+    
+  </channel>
+</rss>
