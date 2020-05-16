@@ -38,7 +38,7 @@ maxSeeAlsoItems = 4
 custom_css = []
 
 # Custom JS
-custom_js = []
+custom_js = ["js/custom.js"]
 
 [taxonomies]
 category = "categories"

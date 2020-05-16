@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sidntrivedi.codes/categories/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/tags/gsoc/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/categories/gsoc-2019/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sidntrivedi.codes/posts/gsoc-report3/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -14,6 +29,11 @@
   
   <url>
     <loc>https://sidntrivedi.codes/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sidntrivedi.codes/tags/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -42,10 +62,6 @@
   </url>
   
   <url>
-    <loc>https://sidntrivedi.codes/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://sidntrivedi.codes/contact/</loc>
   </url>
   
@@ -55,10 +71,6 @@
   
   <url>
     <loc>https://sidntrivedi.codes/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sidntrivedi.codes/tags/</loc>
   </url>
   
 </urlset>
