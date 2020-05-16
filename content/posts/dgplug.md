@@ -4,7 +4,7 @@ title = "DGPLUG Summer Training 2018"
 slug = "dgplug-summer-training-2018" 
 tags = []
 categories = []
-series = ["dgplug"]
+series = []
 +++
 
 Hey everyone, in this blog post, I am going to share my experience of the dgplug summer training that I am a part of. It has been an incredible learning experience till now and I would recommend everyone who wants to be a better programmer or a better Contributor to surely be a part of it.

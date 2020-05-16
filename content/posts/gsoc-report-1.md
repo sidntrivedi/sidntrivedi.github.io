@@ -2,9 +2,9 @@
 date = "2019-06-09"
 title = "Post 1: Google Summer of Code 2019"
 slug = "gsoc-report1" 
-tags = []
-categories = []
-series = ["gsoc"]
+tags = ["gsoc"]
+categories =["gsoc-2019"]
+series = []
 +++
 
 > Linus Torvalds said - <br><br> "I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today and the incredible advances that we have had."<br>

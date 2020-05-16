@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Siddhant N Trivedi</title>
@@ -6,37 +6,9 @@
     <description>Recent content in Series on Siddhant N Trivedi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sidntrivedi.codes/series/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>gsoc</title>
-      <link>https://sidntrivedi.codes/series/gsoc/</link>
-      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sidntrivedi.codes/series/gsoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dgplug</title>
-      <link>https://sidntrivedi.codes/series/dgplug/</link>
-      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sidntrivedi.codes/series/dgplug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://sidntrivedi.codes/series/programming/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sidntrivedi.codes/series/programming/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

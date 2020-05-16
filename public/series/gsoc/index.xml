@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gsoc on Siddhant N Trivedi</title>
@@ -29,7 +29,7 @@ I am really utterly humbled that I got the opportunity to work for Public Lab as
       <guid>https://sidntrivedi.codes/posts/gsoc-report2/</guid>
       <description>Martin Fowler, a Software Design Maestro said -
  Not all eyes that notice bugs in Open Source code belong to saints who will report or repair them in the interest of the public good.
- Thus, I tried to take my first step towards being a *saint*😉 by starting with solving some issues present in the demo of the capture code present in Spectral-Workbench.js. It was really a fun task to do and also helped me to get acknowledged about the codebase of the project.</description>
+ Thus, I tried to take my first step towards being a saint😉 by starting with solving some issues present in the demo of the capture code present in Spectral-Workbench.js. It was really a fun task to do and also helped me to get acknowledged about the codebase of the project.</description>
     </item>
     
     <item>
@@ -38,8 +38,7 @@ I am really utterly humbled that I got the opportunity to work for Public Lab as
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sidntrivedi.codes/posts/gsoc-report1/</guid>
-      <description>Linus Torvalds said - &amp;ldquo;I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples&amp;rsquo; ideas and making it into what science is today and the incredible advances that we have had.&amp;rdquo;
- Indeed, open source is just similar in terms of science if we consider the exchange of ideas, collaboration on research and many other activities and initiatives that take place in both the domains.</description>
+      <description>Linus Torvalds said - &amp;ldquo;I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples&amp;rsquo; ideas and making it into what science is today and the incredible advances that we have had.&amp;ldquo; Indeed, open sourceis just similar in terms of science if we consider the exchange of ideas, collaboration on research and many other activities and initiatives that take place in both the domains.</description>
     </item>
     
   </channel>

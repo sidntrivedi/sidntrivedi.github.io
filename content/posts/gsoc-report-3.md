@@ -2,9 +2,9 @@
 date = "2019-08-26"
 title = "Post 3: Google Summer of Code"
 slug = "gsoc-report3" 
-tags = []
-categories = []
-series = ["gsoc"]
+tags = ["gsoc"]
+categories = ["gsoc-2019"]
+series = []
 +++
 
 ## Introduction

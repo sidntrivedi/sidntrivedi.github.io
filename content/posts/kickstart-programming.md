@@ -4,7 +4,7 @@ title = "Kickstart Programming"
 slug = "kickstart-programming" 
 tags = []
 categories = []
-series = ["Programming"]
+series = []
 +++
 
 Having completed JEE and school, when one steps in college, he gets a new challenge-`PROGRAMMING`.
