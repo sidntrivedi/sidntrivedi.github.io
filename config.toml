@@ -23,7 +23,7 @@ info = "F/OSS Enthusiast and Developing for Web"
 avatarurl = "images/avatar.jpg"
 #footercontent = "Enter a text here."
 colorscheme = "auto"
-hideCredits = false
+hideCredits = true
 hideCopyright = false
 
 rtl = false
