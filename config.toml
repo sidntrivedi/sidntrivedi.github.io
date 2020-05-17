@@ -35,7 +35,7 @@ inverted = false
 maxSeeAlsoItems = 4
 
 # Custom CSS
-custom_css = []
+custom_css = ["css/custom.css"]
 
 # Custom JS
 custom_js = ["js/custom.js"]
