@@ -1,0 +1,34 @@
+{{ partial "default_head.html" . }}
+
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+    <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}
+
+    {{ if .Params.categories }}
+    in {{ range .Params.categories }}
+      <a href="/categories/{{ . | lower | urlize }}">{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </span>
+  {{ .Content }}
+  {{ if .Params.tags }}
+  <span class="post-info">
+    Tags: {{ range .Params.tags }}
+    <a href="/tags/{{ . | lower | urlize }}">{{ . }}</a>
+    {{ end }}
+  </span>
+  {{ end }}
+
+  {{ if .Params.author }}
+  <span class=" post-info author-info">
+    Post by {{ .Params.author }}
+  </span>
+  {{ end }}
+  {{- if .Site.DisqusShortname -}}
+  <hr>
+  <h2>Comments</h2>
+  {{ template "_internal/disqus.html" . }}
+  {{ end -}}
+</div>
+
+{{ partial "default_foot.html" . }}

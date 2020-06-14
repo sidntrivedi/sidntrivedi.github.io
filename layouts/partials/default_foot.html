@@ -1,0 +1,21 @@
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {{ template "_internal/google_analytics_async.html" . }}
+    <hr>
+    <!-- footer -->
+    <div>
+      <div class="copyright">
+        <label>
+          {{ if .Site.Copyright }}
+            {{ .Site.Copyright }}
+          {{ else }}
+            {{ printf "Copyright © %d •" .Site.LastChange.Year }}
+          {{ end }}
+          Published with Hugo.
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
