@@ -1,7 +1,11 @@
+contentdir = 'content'
+layoutdir = 'layouts'
+publishdir = 'public'
+builddrafts = false
+
 baseurl = "https://sidntrivedi.codes"
 title = "Siddhant N Trivedi"
-
-theme = "hugo-coder"
+theme = "lanyon-hugo"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -12,38 +16,32 @@ canonifyurls = true
 pygmentsstyle = "dracula"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
 disqusShortname = "sidntrivedi012-github-io-1"
 
+[permalinks]
+post = ':year/:month/:day/:title/'
+fixed = ':title/'
+[markup.goldmark.extensions]
+typographer = true
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+identifier = 'categories'
+name = 'Categories'
+title = 'Categories section'
+url = '/categories/'
+weight = -110
+
 [params]
-author = "Siddhant N Trivedi"
-description = "F/OSS Enthusiast and Developing for Web"
-keywords = "blog,developer,personal"
-info = "F/OSS Enthusiast and Developing for Web"
-avatarurl = "images/avatar.jpg"
-#footercontent = "Enter a text here."
-colorscheme = "auto"
-hideCredits = true
-hideCopyright = false
+Title = "Siddhant N Trivedi"
+Tagline = "Open-Source Contributor & Compilers Enthusiast"
+Author = "Siddhant N Trivedi"
+DateForm = 'Jan 2 2006'
+mainSections = [
+    'post',
+]
 
-rtl = false
-
-# Use inverted colors
-inverted = false
-
-# Series see also post count
-maxSeeAlsoItems = 4
-
-# Custom CSS
-custom_css = ["css/custom.css"]
-
-# Custom JS
-custom_js = ["js/custom.js"]
-
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
 
 [[params.social]]
 name = "Github"
@@ -71,24 +69,4 @@ url = "mailto:sidntrivedi012@gmail.com"
 [languages.en]
 languagename = "English"
 
-[languages.en.menu]
 
-[[languages.en.menu.main]]
-name = "About"
-weight = 1
-url = "about/"
-
-[[languages.en.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
-
-[[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
