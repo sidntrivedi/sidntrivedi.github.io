@@ -4,11 +4,11 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Siddhant N Trivedi"
 languageCode = "en-us"
-baseURL = "https://sidntrivedi012.github.io/"
+baseURL = "https://sidntrivedi.codes"
 copyright = "© {2020}"
 
 # Add your Disqus shortname here.
-disqusShortname = "sidntrivedi012-github-io-1"
+# disqusShortname = "sidntrivedi012-github-io-1"
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 # googleAnalytics = ""
