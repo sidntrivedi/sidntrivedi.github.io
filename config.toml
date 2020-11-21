@@ -5,7 +5,7 @@ theme = "hugo-theme-codex"
 title = "Siddhant N Trivedi"
 languageCode = "en-us"
 baseURL = "https://sidntrivedi.codes"
-copyright = "© {2020}"
+copyright = "Siddhant N Trivedi - © - {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = "sidntrivedi012-github-io-1"
@@ -48,6 +48,10 @@ copyright = "© {2020}"
 [markup]
   [markup.highlight]
     codeFences = false
+# guessSyntax = true
+    # style = "dracula"
+    # noClasses = true
+    # tabWidth = 2
 
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
