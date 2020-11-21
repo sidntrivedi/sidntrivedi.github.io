@@ -1,11 +1,14 @@
-+++ 
-date = "2018-06-20"
-title = "Kickstart Programming"
-slug = "kickstart-programming" 
-tags = []
-categories = []
-series = []
-+++
+---
+title: "Kickstart Programming"
+date: 2018-06-20T09:19:29-04:00
+slug: "example-post"
+description: "A beginner's guide to start programming"
+keywords: ["programming"]
+draft: false
+tags: ["programming"]
+math: false
+toc: true
+---
 
 Having completed JEE and school, when one steps in college, he gets a new challenge-`PROGRAMMING`.
 
@@ -13,7 +16,7 @@ If he had a CS background back in college, then it appears somewhat easy but if 
 
 Thus, having completed my first year of B.Tech, I would like to offer some help to my fellow friends who are going to join college this July with regard to starting with some programming now in this time period i.e. pre-college time.(June) and getting a decent idea of how things work.
 
-### First of all, the question arises..What is PROGRAMMING??
+#### First of all, the question arises..What is PROGRAMMING??
 
 Many people get it wrong but programming is just bringing a box of metal to life and making it perform some tasks i.e. transforming it into a computer. A computer without its programming is nothing but a scrap metal box. And since, now is the age of computers and even super computers, so you much understand the importance of programming and the capabilities it holds. Learning it will reap great fruits for you in future.
 
