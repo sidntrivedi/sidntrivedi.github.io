@@ -4,8 +4,8 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Siddhant N Trivedi"
 languageCode = "en-us"
-baseURL = "https://sidntrivedi.codes"
-copyright = "Siddhant N Trivedi - © - {year}"
+baseURL = "https://sidntrivedi012.netlify.app"
+copyright = "Siddhant N Trivedi - Â© - {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = "sidntrivedi012-github-io-1"
