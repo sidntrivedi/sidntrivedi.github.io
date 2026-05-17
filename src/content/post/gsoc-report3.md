@@ -3,7 +3,7 @@ title: "Post 3: Google Summer of Code"
 description: "Public Lab has been doing a great amount of super inspiring work on improving the standard of science and environmental research in the community through various technologies and t"
 publishDate: "2019-08-26"
 tags: ["gsoc"]
-draft: false
+draft: true
 ---
 ## Introduction
 

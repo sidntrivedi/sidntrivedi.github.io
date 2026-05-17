@@ -3,7 +3,7 @@ title: "Post 2: Google Summer of Code"
 description: "Martin Fowler, a Software Design Maestro said -"
 publishDate: "2019-07-25"
 tags: ["gsoc"]
-draft: false
+draft: true
 ---
 <strong>Martin Fowler</strong>, a Software Design Maestro said -
 

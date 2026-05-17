@@ -3,7 +3,7 @@ title: "Post 1: Google Summer of Code 2019"
 description: "Indeed, open source is just similar in terms of science if we consider the exchange of ideas, collaboration on research and many other activities and initiatives that take place in"
 publishDate: "2019-06-09"
 tags: ["gsoc"]
-draft: false
+draft: true
 ---
 > Linus Torvalds said - <br><br> "I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today and the incredible advances that we have had."<br>
 
