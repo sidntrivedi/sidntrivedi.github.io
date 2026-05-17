@@ -1,9 +1,32 @@
-# website
+# Siddhant N Trivedi
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/204d9763-31e9-4870-807c-84cfcb3ec071/deploy-status)](https://app.netlify.com/sites/sidntrivedi012/deploys)
+Personal blog built with [Astro](https://astro.build) using the
+[Astro Cactus](https://github.com/chrismwilliams/astro-theme-cactus) template.
 
-## For adding a new blog
+## Development
 
+```sh
+npm install
+npm run dev
 ```
-hugo new blog/:blog-post.md
+
+The dev server runs at `http://localhost:4321/` by default.
+
+## Build
+
+```sh
+npm run build
+npm run preview
 ```
+
+Production output is written to `dist/`. The build also runs Pagefind so the
+static search index is generated.
+
+## Content
+
+Blog posts live in `src/content/post/`. The filename is the post slug, so
+`src/content/post/gsoc-report1.md` is served at `/posts/gsoc-report1/`.
+
+Tag metadata lives in `src/content/tag/`.
+
+Site metadata, navigation, and date formatting live in `src/site.config.ts`.

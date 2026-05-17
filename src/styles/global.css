@@ -1,0 +1,164 @@
+@import "tailwindcss";
+/* tailwind to ignore satori generated og-image */
+@source not "../pages/og-image";
+/* config for tailwindcss-typography plugin */
+@config "../../tailwind.config.ts";
+
+/* use a selector-based strategy for dark mode */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* register custom colour properties */
+@property --color-global-bg {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #fafafa;
+}
+@property --color-global-text {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #22272a;
+}
+@property --color-muted {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #6b7280;
+}
+@property --color-link {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #567c77;
+}
+@property --color-accent {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #cc2a42;
+}
+@property --color-accent-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #111111;
+}
+@property --color-quote {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #cc2a42;
+}
+
+/* you could refactor below to use light-dark(), depending on your target audience */
+@theme {
+	--color-global-bg: #fafafa;
+	--color-global-text: #22272a;
+	--color-muted: #6b7280;
+	--color-link: #567c77;
+	--color-accent: #cc2a42;
+	--color-accent-2: #111111;
+	--color-quote: #cc2a42;
+	--color-menu-bg: #fafafad9;
+}
+
+@layer base {
+	html {
+		color-scheme: light dark;
+		accent-color: var(--color-accent);
+		scrollbar-gutter: stable;
+
+		&[data-theme="light"] {
+			color-scheme: light;
+		}
+
+		&[data-theme="dark"] {
+			color-scheme: dark;
+			--color-global-bg: #1d1f21;
+			--color-global-text: #c9cacc;
+			--color-muted: #9ca3af;
+			--color-link: #d480aa;
+			--color-accent: #2bbc89;
+			--color-accent-2: #eeeeee;
+			--color-quote: #ccffb6;
+			--color-menu-bg: #1d1f21d9;
+		}
+
+		--color-mode-transition-duration: 300ms;
+		--color-mode-transition-easing: ease-in-out;
+
+		transition:
+			--color-global-bg var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-global-text var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-muted var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-link var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-accent var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-accent-2 var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-quote var(--color-mode-transition-duration) var(--color-mode-transition-easing);
+	}
+
+	:target {
+		scroll-margin-block: 5ex;
+	}
+
+	@view-transition {
+		navigation: auto;
+	}
+
+	/* Astro image responsive styles, modified from -> https://docs.astro.build/en/guides/images/#responsive-image-styles */
+	:where([data-astro-image]) {
+		object-fit: var(--fit);
+		object-position: var(--pos);
+	}
+	[data-astro-image="full-width"] {
+		width: 100%;
+	}
+	[data-astro-image="constrained"] {
+		max-width: 100%;
+	}
+}
+
+@layer components {
+	@import "./components/admonition.css";
+	@import "./components/github-card.css";
+
+	.cactus-link {
+		background-image: linear-gradient(
+			transparent,
+			transparent 5px,
+			var(--color-global-text) 5px,
+			var(--color-global-text)
+		);
+		background-position: bottom;
+		background-repeat: repeat-x;
+		background-size: 100% 6px;
+
+		&:hover {
+			background-image: linear-gradient(
+				transparent,
+				transparent 4px,
+				var(--color-link) 4px,
+				var(--color-link)
+			);
+		}
+	}
+
+	.title {
+		@apply text-accent-2 text-2xl font-semibold;
+	}
+}
+
+@utility prose {
+	--tw-prose-body: var(--color-global-text);
+	--tw-prose-bold: var(--color-global-text);
+	--tw-prose-bullets: var(--color-global-text);
+	--tw-prose-code: var(--color-global-text);
+	--tw-prose-headings: var(--color-accent-2);
+	--tw-prose-hr: 0.5px dashed #666;
+	--tw-prose-links: var(--color-global-text);
+	--tw-prose-quotes: var(--color-quote);
+	--tw-prose-th-borders: #666;
+}
+
+.prose :where(strong, code) {
+	color: #000;
+}
+
+[data-theme="dark"] .prose :where(strong, code),
+.astro-code code {
+	color: #fff;
+}
