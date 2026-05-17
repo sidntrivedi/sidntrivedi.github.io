@@ -17,6 +17,7 @@ const post = defineCollection({
 	schema: ({ image }) =>
 		baseSchema.extend({
 			description: z.string(),
+			canonicalURL: z.url().optional(),
 			coverImage: z
 				.object({
 					alt: z.string(),
